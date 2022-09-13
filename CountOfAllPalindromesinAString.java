@@ -10,7 +10,7 @@ public class CountOfAllPalindromesinAString {
         System.out.println("Enter a String .");
         List<String> tempList = new ArrayList<>();
         String input2 = scan.nextLine();
-        String input = input2.replaceAll(" ", "");
+        String input = input2.replaceAll(" ", ""); //  without no space , with space use input2
         System.out.println(input);
 
         // all combinations in input without " " ;
